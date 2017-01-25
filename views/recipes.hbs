@@ -1,0 +1,8 @@
+{{> add}}
+<ul>
+    {{#each recipes}}
+      <li>
+          <a href="api/recipes/{{this.id}}"><p>{{this.food}}</p></a>
+      </li>
+    {{/each}}
+</ul>
